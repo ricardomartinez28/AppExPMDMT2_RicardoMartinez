@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppExPMDMT2_RicardoMartinez</string>
+    <string name="hint_rareza">Introduce una rareza</string>
+    <string name="btn_buscar">Buscar skin</string>
+    <string name="tv_nombre_skin">%1$s</string>
+    <string name="tv_descripcion">Descripcion: %1$s</string>
+    <string name="tv_rareza">Rareza: %1$s</string>
+    <string name="tv_coste">Coste: %1$s</string>
+</resources>
