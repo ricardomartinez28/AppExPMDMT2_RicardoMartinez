@@ -1,11 +1,13 @@
 package com.example.a21759217.appexpmdmt2_ricardomartinez.RetrofitUtils;
 
 import com.example.a21759217.appexpmdmt2_ricardomartinez.model.Skin;
+import com.example.a21759217.appexpmdmt2_ricardomartinez.model.SkinDetalle;
 
 import java.util.ArrayList;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface APIRestService {
@@ -16,5 +18,8 @@ public interface APIRestService {
 
     @GET("skins")
     Call<ArrayList<Skin>> obtenerskinRareza(@Query("rarity") String rareza);
+
+    @GET("skinsDetalles/{id_skin}")
+    Call<SkinDetalle> obtenerDetalle(@Path("id_skin") String id);
 
 }

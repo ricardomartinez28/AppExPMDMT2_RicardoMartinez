@@ -6,4 +6,7 @@
     <string name="tv_descripcion">Descripcion: %1$s</string>
     <string name="tv_rareza">Rareza: %1$s</string>
     <string name="tv_coste">Coste: %1$s</string>
+    <string name="tv_estrellas">Stars: %1$s</string>
+    <string name="tv_puntos">Puntos: %1$s</string>
+    <string name="tv_votos">Votos: %1$s</string>
 </resources>
